@@ -11,8 +11,8 @@ function run(msg, matches)
   "sbsspm : SBSS Team spam",
   patterns = {
     "^1$",
-	"^1$",
-
+    "^1 (.*)$",
+    "^(1)$"
   },
   run = run
 }
